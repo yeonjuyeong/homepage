@@ -15,39 +15,39 @@
 <div id='page'>
 	<header>
 		<div id='logo'>
-			<img src='img/logo.png'>
+			<img src='img/한국민속촌.svg'>
 		</div>
 		<div id='top'>
 			  <ul class="main-menu">
                 <li>
-                    <a href="#" >학교소개</a>
+                    <a href="#" >민속촌 이용안내</a>
                     <ul class="sub"> 
-                        <li><a href="#">학교연혁</a></li>
-                        <li><a href="#">교훈</a></li>
-                        <li><a href="#">교가</a></li>
-                        <li><a href="#">학교상징</a></li>
+                        <li><a href="#">민속촌위치</a></li>
+                        <li><a href="#">촬영안내</a></li>
+                        <li><a href="#">운영시간</a></li>
+                        <li><a href="#">자주 묻는 질문</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#" >학생생활</a>
+                    <a href="#" >요금/예약</a>
                     <ul class="sub">
-                        <li><a href="#">부사관과</a></li>
-                        <li><a href="#">미용학과</a></li>
-                        <li><a href="#">스마트웹과</a></li>
-                        <li><a href="#">소프트웨어개발과</a></li>
+                        <li><a href="#">예약</a></li>
+                        <li><a href="#">단체예약</a></li>
+                        <li><a href="#">요금할인</a></li>
+                        <li><a href="#">요금안내</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#" >게시판</a>
+                    <a href="#" >할 수 있는 체험</a>
                     <ul class="sub">
-                        <li><a href="#">공지사항</a></li>
-                        <li><a href="#">가정통신문</a></li>
-                        <li><a href="#">건의사항</a></li>
-                        <li><a href="#">Q&A</a></li>
+                        <li><a href="#">한복대여</a></li>
+                        <li><a href="#">공연안내</a></li>
+                        <li><a href="#">체험</a></li>
+                        <li><a href="#">체험Q&A</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#" >Members</a>
+                    <a href="#" >회원</a>
                     <ul class="sub">
                         <li onclick="winOpen1()"><a href="#">로그인</a></li>
                         <li onclick="winOpen2()"><a href="#">회원가입 클릭</a></li>
@@ -61,12 +61,12 @@
 	
 	<section>
              <div class="imgs" >
-                 <img src='img/main_img.png'>
-                 <img src='img/main_img2.png'>
-                 <img src='img/main_img3.png'>
-                 <img src='img/main_img4.png'>
+                 <img src='img/민속촌1.jfif'>
+                 <img src='img/민속촌2.jfif'>
+                 <img src='img/민속촌3.jfif'>
+                 <img src='img/민속촌4.jfif'>
                  <div class="welcome">
-                     <h2><span>성일정보고등학교에 오신 것을 환영합니다.</span></h2>
+                     <h2><span>민속촌에 오신 것을 환영합니다.</span></h2>
                  </div>
              </div>
 	</section>
@@ -82,31 +82,31 @@
                                     <th>날짜</th>
                             </tr>
                             <tr>
-                                    <td><a href = "#">철쭉제의 사진 모음</a></td>
+                                    <td><a href = "#">민속촌의 사진 모음</a></td>
                                     <td>2022-06-01</td>
                             </tr>
                             <tr>
-                                    <td><a href = "#">여름방학이 시작됩니다.</a></td>
+                                    <td><a href = "#">여름방학할인이 시작됩니다.</a></td>
                                     <td>2022-08-01</td>
                             </tr>
                             <tr>
-                                    <td><a href = "#">가을이 시작됩니다. 단풍구경 하세요.</a></td>
+                                    <td><a href = "#">단풍사진이벤트!</a></td>
                                     <td>2022-10-01</td>
                             </tr>
                             <tr>
-                                    <td><a href = "#">수학여행을 갑시다.</a></td>
+                                    <td><a href = "#">공사 안내</a></td>
                                     <td>2022-11-01</td>
                             </tr>
                             <tr>
-                                    <td><a href = "#">교정에 눈이 내렸습니다.</a></td>
-                                    <td>2022-12-01</td>
+                                    <td><a href = "#">눈송이 이벤트!</a></td>
+                                    <td>2022-12-20</td>
                             </tr>
                     </table>
             </div>
         <div class=clear></div>
         <footer>
         <div id=address align="center">
-        	<img src="img/address.png">
+        	<img src="img/민속촌 위치.png">
         </div>
         
         </footer>
