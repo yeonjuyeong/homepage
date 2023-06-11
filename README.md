@@ -1,7 +1,7 @@
 # homepage
 ### 메인
 css, js 연결
-```java
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,7 +16,7 @@ css, js 연결
 
 
 메인 보이는 부분
-```java
+```html
 <body>
 
 <div id='page'>
@@ -122,7 +122,8 @@ css, js 연결
 </body>
 </html>
 ```
-```java
+
+```css
 @charset "UTF-8";
 * {
 	padding: 0;
@@ -390,7 +391,7 @@ function winOpen2(){
 </body>
 </html>
 ```
-```java
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
