@@ -1,5 +1,6 @@
 # homepage
-### 메인 1
+### 메인
+css, js 연결
 ```java
 <!DOCTYPE html>
 <html>
@@ -9,8 +10,13 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" defer="defer"></script>
 <script src="js/script.js?=dfg" defer="defer" ></script>
 </head>
+```
 
 
+
+
+메인 보이는 부분
+```java
 <body>
 
 <div id='page'>
