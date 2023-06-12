@@ -22,8 +22,11 @@ css, js 연결
 <div id='page'>
 	<header>
 		<div id='logo'>
-			<img src='img/한국민속촌.svg'>
-		</div>
+			<img src='img/한국민속촌.svg'>//로고
+			
+			
+			
+		</div>//메뉴
 		<div id='top'>
 			  <ul class="main-menu">
                 <li>
@@ -61,12 +64,12 @@ css, js 연결
                     </ul>
                 </li>
              </ul>
-		</div>
+		</div>//메뉴
 	</header>
 
 <div class='clear'></div>  <!--	float 속성 해제 -->	
 	
-	<section>
+	<section>//연속적인 이미지
              <div class="imgs" >
                  <img src='img/민속촌1.jfif'>
                  <img src='img/민속촌2.jfif'>
@@ -76,11 +79,11 @@ css, js 연결
                      <h2><span>민속촌에 오신 것을 환영합니다.</span></h2>
                  </div>
              </div>
-	</section>
+	</section>//연속적인 이미지
 	
 	<div class='clear'></div>  <!--	float 속성 해제 -->
     
-    <div>
+    <div>//게시물
             <div class = "notice">
                     <h2>공지사항</h2>
                     <table class = "table">
@@ -109,14 +112,14 @@ css, js 연결
                                     <td>2022-12-20</td>
                             </tr>
                     </table>
-            </div>
+            </div>//게시물
         <div class=clear></div>
-        <footer>
+        <footer>//위치
         <div id=address align="center">
         	<img src="img/민속촌 위치.png">
         </div>
         
-        </footer>
+        </footer>//위치
     </div>
 </div>
 </body>
