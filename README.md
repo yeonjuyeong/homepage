@@ -1,5 +1,7 @@
 # homepage
 ### 메인
+![image](https://github.com/yeonjuyeong/homepage/assets/123055714/e8a57382-59fa-4f75-a2b3-c75c912aa760)
+
 css, js 연결
 ```html
 <!DOCTYPE html>
@@ -67,6 +69,10 @@ css, js 연결
 		</div>//메뉴
 	</header>
 
+	
+	
+	
+	
 <div class='clear'></div>  <!--	float 속성 해제 -->	
 	
 	<section>//연속적인 이미지
@@ -80,6 +86,10 @@ css, js 연결
                  </div>
              </div>
 	</section>//연속적인 이미지
+	
+	
+	
+	
 	
 	<div class='clear'></div>  <!--	float 속성 해제 -->
     
@@ -113,6 +123,10 @@ css, js 연결
                             </tr>
                     </table>
             </div>//게시물
+	    
+	    
+	    
+	    
         <div class=clear></div>
         <footer>//위치
         <div id=address align="center">
@@ -126,158 +140,11 @@ css, js 연결
 </html>
 ```
 
-```css
-@charset "UTF-8";
-* {
-	padding: 0;
-	margin: 0;
-}
 
-#page {
-	width: 995px;
-	margin: 0 auto;
-}
 
-header {
-	width: 995px;
-	height: 120px;
-	margin-top: 10px;
-	border : solid 1px #cccccc; 
-}
 
-#logo {
-	float: left;
-    margin-top: 20px;
-}
 
-li {
-	list-style-type: none;
-}
-
-a{
-    color: inherit;
-    text-decoration: none;
-}
-
-#top {
-	float: right;
-	margin: 20px 20px 0 0;
-}
-
-.main-menu {	
-	width: 600px;
-	height: 40px;
-	margin-top: 10px;	
-	background-color: maroon;   
-    line-height: 40px;
-    color:white;
-}
-
-.main-menu li{ /* 학교소개, 학생생활, 게시판, members */
-    float: left;
-    width: 150px;
-    text-align: center;   
-} 
-
-.main-menu li:hover{
-    color:blueviolet;
-    background-color: white;  
-}
-
-.sub {
-	position: absolute;
-	width: 150px;    
-	background-color: #aabbdd;
-	display: none;
-	z-index: 1;
-}
-
-.sub li:hover {
-	background-color: #ddbbaa;    
-    }
-
-.clear {
-	clear: both;
-    } 
-       
-section {
-    width: 995px;
-    height: 240px;
-	float:left;
-	margin-top: 10px;
-    align-content: center
-}
-
-.imgs{
-    width: 995px;
-    height: 220px;
-    position: absolute;
-    overflow: hidden;
-    }
-    
-.imgs>img{
-    position: absolute;
-    transition: all 2s;
-}
-
-.welcome{
-    position : relative;
-    text-align : center;
-    margin : -35px 0 0 -350px  !important;
-    width : 750px;
-    height : 50px;
-    line-height : 50px;
-    background-color : #cccccc;
-    border-radius : 30px;
-    left : 50%;
-    top : 50%;
-}
-
-span {
-    color : #893700;
-}
-
-.notice{
-	width: 995px;
-	margin-top: 10px;
-	float: left;
-	}
-	
-h2{
-	text-align: center;
-	}
-
-.table{
-	width: 995px;
-	border-collapse: collapse;
-	font-size: irem;
-	color: #888; 
-	}
-
-.table tr>th{
-	padding: 5px;
-}
-
-.table tr>td{
-	padding: 5px;
-	text-align: center;
-}
-
-.table tr:nth-child(2n){
-	background-color:  #cccccc;
-}
-footer {
-	width: 995px;
-    height: 130px;
-	border-top: solid 1px #cccccc;
-	margin-top: 20px;
-}
-#address {
-	
-	margin: 30px 0 0 50px;
-}
-```
-```java
+```javascript
 $(".main-menu > li").mouseover(function(){
            $(this).children(".sub").stop().slideDown();
 });
@@ -309,7 +176,11 @@ function winOpen2(){
  var win2 = window.open('join.html','child2','toolbar = no, location= no , status = no, menubar = no, resizable = no , scrollbars = no, width = 1850, height = 1700')
 }
 ```
-```java
+
+
+
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
