@@ -146,8 +146,6 @@ css, js 연결
 
 
 ## 로그인, 회원 가입 html
-로그인 버튼을 누구면 로그인 화면이 뜨고<br>
-![image](https://github.com/yeonjuyeong/homepage/assets/123055714/18cef82c-ecdd-40b1-a78e-3a8fe8f4c100)
 
 회원 가입 버튼을 누르면 회원관리 화면이 뜬다<br>
 ![image](https://github.com/yeonjuyeong/homepage/assets/123055714/0a19ed0e-b624-45d7-bd50-dfc48e35b813)
@@ -238,6 +236,10 @@ css, js 연결
 </body>
 </html>
 ```
+
+
+로그인 버튼을 누구면 로그인 화면이 뜬다.<br>
+![image](https://github.com/yeonjuyeong/homepage/assets/123055714/18cef82c-ecdd-40b1-a78e-3a8fe8f4c100)
 ```html
 <!DOCTYPE html>
 <html lang="en">
