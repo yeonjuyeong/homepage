@@ -1,5 +1,5 @@
 # homepage
-### 메인
+## 메인
 ![image](https://github.com/yeonjuyeong/homepage/assets/123055714/6b07128c-a762-42f2-a908-123100474f7b)
 
 css, js 연결
