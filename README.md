@@ -1,6 +1,6 @@
 # homepage
 ### 메인
-![image](https://github.com/yeonjuyeong/homepage/assets/123055714/e8a57382-59fa-4f75-a2b3-c75c912aa760)
+![image](https://github.com/yeonjuyeong/homepage/assets/123055714/6b07128c-a762-42f2-a908-123100474f7b)
 
 css, js 연결
 ```html
@@ -144,40 +144,13 @@ css, js 연결
 
 
 
-```javascript
-$(".main-menu > li").mouseover(function(){
-           $(this).children(".sub").stop().slideDown();
-});
-
-$(".main-menu > li").mouseleave(function(){
-            $(this).children(".sub").stop().slideUp();
-});
-
-start();
-var imgs=5;
-var now =0;
-
-function start(){
-    $(".imgs>img").eq(0).siblings().css({"margin-left":"-2000px"});    
-    setInterval(function(){slide();}, 2000);
-}
-
-function slide(){
-    now = now == imgs?0:now+=1;
-    $(".imgs>img").eq(now-1).css({"margin-left":"-2000px"});
-    $(".imgs>img").eq(now).css({"margin-left":"0px"});
-}
-
-function winOpen1(){
- var win1 = window.open('login.html','child1','toolbar = no, location= no , status = no, menubar = no, resizable = no , scrollbars = no, width = 700, height = 700')
-}
-
-function winOpen2(){
- var win2 = window.open('join.html','child2','toolbar = no, location= no , status = no, menubar = no, resizable = no , scrollbars = no, width = 1850, height = 1700')
-}
-```
 
 
+로그인 버튼을 누구면 로그인 화면이 뜨고
+![image](https://github.com/yeonjuyeong/homepage/assets/123055714/18cef82c-ecdd-40b1-a78e-3a8fe8f4c100)
+
+회원 가입 버튼을 누르면 회원관리 화면이 뜬다
+![image](https://github.com/yeonjuyeong/homepage/assets/123055714/0a19ed0e-b624-45d7-bd50-dfc48e35b813)
 
 
 ```html
