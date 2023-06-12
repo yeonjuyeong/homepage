@@ -146,6 +146,7 @@ css, js 연결
 
 
 ## 로그인, 회원 가입 html
+![image](https://github.com/yeonjuyeong/homepage/assets/123055714/444bfc8b-8b40-4781-9cfc-1fb16eadd569)
 
 회원 가입 버튼을 누르면 회원관리 화면이 뜬다<br>
 ![image](https://github.com/yeonjuyeong/homepage/assets/123055714/0a19ed0e-b624-45d7-bd50-dfc48e35b813)
